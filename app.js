@@ -2,7 +2,7 @@ const express = require("express");
 
 // Express 앱 생성
 const app = express();
-const port = 3001;
+const port = 3000;
 
 // 기본 라우트
 app.get("/", (req, res) => {
